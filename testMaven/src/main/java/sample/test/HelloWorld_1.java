@@ -1,9 +1,11 @@
 package sample.test;
 
-public class HelloWorld_1 {
+import org.testng.annotations.Test;
 
+public class HelloWorld_1 {
+@Test
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		System.out.println("Hekki");
 
 	}
 
